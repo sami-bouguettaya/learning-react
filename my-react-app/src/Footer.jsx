@@ -1,9 +1,10 @@
 
-function Footer(){
-    return(
-        <Footer>
-            <P>&copy; Your website name</P>
-        </Footer>
-    );
+function Footer() {
+  return (
+    <footer>
+      <p>&copy;{new Date().getFullYear()} Your website name</p>
+    </footer>
+  );
 }
-export default Footer 
+
+export default Footer;
