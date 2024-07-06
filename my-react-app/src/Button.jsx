@@ -3,10 +3,10 @@
 function Button (){
 
    
-    const handelClick = (e) => console.log(e)
+    const handelClick = (e) => e.target.textContent = "OUCH!" ;
        
     
-    return(<button onClick={(e) => handelClick(e)}> Click me </button>)
+    return(<button onClick ={(e) => handelClick(e)}> Click me </button>)
 }
 
 export default Button
