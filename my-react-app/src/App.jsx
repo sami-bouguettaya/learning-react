@@ -7,7 +7,7 @@ function App() {
       <Card/>
       
     </>
-  );
+  )
 }
 
 export default App;
