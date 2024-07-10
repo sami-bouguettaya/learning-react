@@ -1,12 +1,11 @@
-import Card from "./Card.jsx";
+
+import Client from "./Client.jsx";
 
 
 
 
 function App() {
-  return (
-    <Card/>
-  )
+  return(<Client name = "SAMI"/> );
 }
 
 export default App;
