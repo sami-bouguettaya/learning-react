@@ -7,12 +7,19 @@ function List(){
         {id : 4,name : "coconut", calories : 169},
         {id : 5,name : "pineapple", calories : 39}];
 
+
+        
+     fruits.sort((a, b) => a.name.localeCompare(b.name)); //ALPHABETICAL
+     fruits.sort((a, b) => b.name.localeCompare(a.name)); //REVERSE ALPHABETICAL
+    fruits.sort((a, b) => a.calories - b.calories); //NUMERIC
+    fruits.sort((a, b) => b.calories - a.calories); //REVERSE NUMIRIC
+
         const listItems = fruits.map(fruits => <li key = {fruits.id}>  {/* id for the error of key */}
 
             {fruits.name} : &nbsp;
             {fruits.calories}
              </li>);
-             
+
     return(<ul>{listItems}</ul>); 
 }
 
