@@ -1,11 +1,13 @@
-
-import Client from "./Client.jsx";
+import UserGreeting from "./UserGreeting.jsx";
 
 
 
 
 function App() {
-  return(<Client name = "SAMI"/> );
+  return( 
+    <UserGreeting isLoggedIn ={true} username ="SamiBougui"/>
+
+      );
 }
 
 export default App;
