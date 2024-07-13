@@ -1,10 +1,10 @@
-import Button from "./Button";
+import ProfilPicture from "./ProfilPicture";
 
 
 
 function App() {
   return( 
-    <Button/>
+    <ProfilPicture/>
 
       );
 }
