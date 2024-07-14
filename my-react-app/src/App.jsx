@@ -1,13 +1,10 @@
-import ProfilPicture from "./ProfilPicture";
+import MyComponent from "./MyComponent";
 
 
+function App (){
 
-function App() {
-  return( 
-    <ProfilPicture/>
-
-      );
+    return(<>
+             <MyComponent/> 
+            </>)
 }
-
 export default App;
-
