@@ -1,16 +1,12 @@
-import Button from "./Button";
-
+import List from "./List.jsx";
 
 
 function App() {
-  
+  return( 
+    <List/>
 
- return( 
-      <>
-     <Button/>
-       </>
- );
-  
+      );
 }
 
-export default App
+export default App;
+
