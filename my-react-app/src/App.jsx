@@ -1,16 +1,10 @@
-import Button from "./Button";
+import MyComponent from "./MyComponent";
 
 
+function App (){
 
-function App() {
-  
-
- return( 
-      <>
-     <Button/>
-       </>
- );
-  
+    return(<>
+             <MyComponent/> 
+            </>)
 }
-
-export default App
+export default App;
